@@ -36,3 +36,32 @@
     transform: rotate(360deg);
   }
 }
+
+.someDiv{
+  height:110px;
+  width: 450px;
+  margin: 20px;
+  background-color: #61dafb;
+  border-radius: 20px;
+  padding: 10px;
+  padding-left: 20px;
+}
+
+.nav{
+  height:60px;
+  width: 100%;
+  background-color: beige;
+  padding-top:15px;
+  padding-left: 40px;
+  font-size: large;
+}
+
+.flex-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+*{
+  box-sizing: border-box;
+}
